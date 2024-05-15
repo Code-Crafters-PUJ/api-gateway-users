@@ -14,6 +14,54 @@
   },
   "endpoints": [
     {
+      "endpoint": "/general/loss-vs-profit",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/general/loss-vs-profit",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:5500"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/general/category-vs-stock-percentage",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/general/category-vs-stock-percentage",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:5500"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/general/month-vs-salary",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/general/month-vs-salary",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:5500"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/general/top-saled-products-vs-sales",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/general/top-saled-products-vs-sales",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:5500"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
       "endpoint": "/accounting/loss-vs-profit",
       "output_encoding": "json",
       "input_headers": ["*"],
