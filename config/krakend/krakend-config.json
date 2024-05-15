@@ -12,6 +12,271 @@
       "options_passthrough": true
     }
   },
-  "endpoints": [  ],
+  "endpoints": [
+    {
+      "endpoint": "/accounting/loss-vs-profit",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/accounting/loss-vs-profit",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:5500"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/accounting/category-vs-purchase-and-sales",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/accounting/category-vs-purchase-and-sales",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:5500"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/inventory/category-vs-stock-percentage",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/inventory/category-vs-stock-percentage",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:5500"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/inventory/product-vs-top-5-less-stock",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/inventory/product-vs-top-5-less-stock",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:5500"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/inventory/provider-vs-stock-percentage",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/inventory/provider-vs-stock-percentage",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:5500"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/payroll/month-vs-salary",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/payroll/month-vs-salary",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:5500"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/payroll/fortnight-vs-salary",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/payroll/fortnight-vs-salary",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:5500"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/sales/top-saled-products-vs-sales",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/sales/top-saled-products-vs-sales",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:5500"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/sales/month-vs-income",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/sales/month-vs-income",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:5500"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/sales/branch-vs-sales",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/sales/branch-vs-sales",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:5500"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/user/login",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/user/login",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:8000"],
+        "disable_tls_verify": true
+      },
+      "method": "POST"
+    },
+    {
+      "endpoint": "/user/signin",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/user/signin",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:8000"],
+        "disable_tls_verify": true
+      },
+      "method": "POST"
+    },
+    {
+      "endpoint": "/payroll/all",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/payroll/all",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:8001"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/payroll/create",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/payroll/create",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:8001"],
+        "disable_tls_verify": true
+      },
+      "method": "POST"
+    },
+    {
+      "endpoint": "/employee/create",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/employee/create",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:8001"],
+        "disable_tls_verify": true
+      },
+      "method": "POST"
+    },
+    {
+      "endpoint": "/employee/all",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/employee/all",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:8001"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/payroll/{id}",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/payroll/{id}",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:8001"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/payroll/delete/{id}",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/payroll/delete/{id}",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:8001"],
+        "disable_tls_verify": true
+      },
+      "method": "DELETE"
+    },
+    {
+      "endpoint": "/employee/delete/{id}",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/employee/delete/{id}",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:8001"],
+        "disable_tls_verify": true
+      },
+      "method": "DELETE"
+    },
+    {
+      "endpoint": "/payroll/update/{id}",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/payroll/update/{id}",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:8001"],
+        "disable_tls_verify": true
+      },
+      "method": "PUT"
+    },
+    {
+      "endpoint": "/employee/{id}",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/employee/{id}",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:8001"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/employee/update/{id}",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/employee/update/{id}",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:8001"],
+        "disable_tls_verify": true
+      },
+      "method": "PUT"
+    }
+  ],
   "output_encoding": "json"
 }
