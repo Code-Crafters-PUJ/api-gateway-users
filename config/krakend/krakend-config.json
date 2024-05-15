@@ -182,11 +182,23 @@
       "method": "GET"
     },
     {
+      "endpoint": "/company",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "Commertial/company/createCompany",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:8000"],
+        "disable_tls_verify": true
+      },
+      "method": "POST"
+    },
+    {
       "endpoint": "/user/login",
       "output_encoding": "json",
       "input_headers": ["*"],
       "backend": {
-        "url_pattern": "/user/login",
+        "url_pattern": "Commertial/user/login",
         "encoding": "json",
         "host": ["http://10.43.101.58:8000"],
         "disable_tls_verify": true
@@ -198,12 +210,36 @@
       "output_encoding": "json",
       "input_headers": ["*"],
       "backend": {
-        "url_pattern": "/user/signin",
+        "url_pattern": "Commertial/user/createUser",
         "encoding": "json",
         "host": ["http://10.43.101.58:8000"],
         "disable_tls_verify": true
       },
       "method": "POST"
+    },
+    {
+      "endpoint": "/user/root/create",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "Commertial/user/createRootUser",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:8000"],
+        "disable_tls_verify": true
+      },
+      "method": "POST"
+    },
+    {
+      "endpoint": "/company/accounts/{id}",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/Commertial/user/getAccountsByCompany/{id}",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:8000"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
     },
     {
       "endpoint": "/payroll/all",
