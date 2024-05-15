@@ -243,11 +243,12 @@
     },
     {
       "endpoint": "/payroll/all",
-      "output_encoding": "json",
+      "output_encoding": "json-collection",
       "input_headers": ["*"],
       "backend": {
         "url_pattern": "/payroll/all",
         "encoding": "json",
+        "is_collection": true,
         "host": ["http://10.43.101.58:8001"],
         "disable_tls_verify": true
       },
@@ -279,11 +280,12 @@
     },
     {
       "endpoint": "/employee/all",
-      "output_encoding": "json",
+      "output_encoding": "json-collection",
       "input_headers": ["*"],
       "backend": {
         "url_pattern": "/employee/all",
         "encoding": "json",
+        "is_collection": true,
         "host": ["http://10.43.101.58:8001"],
         "disable_tls_verify": true
       },
