@@ -360,6 +360,150 @@
         "disable_tls_verify": true
       },
       "method": "PUT"
+    },
+    {
+      "endpoint": "/compras/getall",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/compras/getall",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:5050"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/ventas/getall",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/ventas/getall",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:5050"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/gastos/getall",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/gastos/getall",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:5050"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/cuentasporcobrar/getall",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/cuentasporcobrar/getall",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:5050"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/cuentasporpagar/getall",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/cuentasporpagar/getall",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:5050"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/activos/getall",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/activos/getall",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:5050"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/pasivos/getall",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/pasivos/getall",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:5050"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/capitalcontable/getall",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/capitalcontable/getall",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:5050"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/transaccionesbancarias/getall",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/transaccionesbancarias/getall",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:5050"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/impuestos/getall",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/impuestos/getall",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:5050"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/asientoscontables/getall",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/asientoscontables/getall",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:5050"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/estadosfinancieros/getall",
+      "output_encoding": "json",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/estadosfinancieros/getall",
+        "encoding": "json",
+        "host": ["http://10.43.101.58:5050"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
     }
   ],
   "output_encoding": "json"
