@@ -892,17 +892,212 @@
       "method": "GET"
     },
     {
-      "endpoint": "/products/company/:id",
+      "endpoint": "/api/Product/branches/company/{id}",
       "output_encoding": "json-collection",
       "input_headers": ["*"],
       "backend": {
-        "url_pattern": "/products/company/:id",
+        "url_pattern": "/api/Product/branches/company/{id}",
         "encoding": "json",
         "is_collection": true,
         "host": ["http://10.43.101.58:7071"],
         "disable_tls_verify": true
       },
       "method": "GET"
+    },
+    {
+      "endpoint": "/api/Product/branches/names/company/{id}",
+      "output_encoding": "json-collection",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/api/Product/branches/names/company/{id}",
+        "encoding": "json",
+        "is_collection": true,
+        "host": ["http://10.43.101.58:7071"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/api/Product/products/company/{id}",
+      "output_encoding": "json-collection",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/api/Product/products/company/{id}",
+        "encoding": "json",
+        "is_collection": true,
+        "host": ["http://10.43.101.58:7071"],
+        "disable_tls_verify": true
+      },
+      "method": "POST"
+    },
+    {
+      "endpoint": "/api/Product/products/company/{id}/{productId}/branches",
+      "output_encoding": "json-collection",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/api/Product/products/company/{id}/{productId}/branches",
+        "encoding": "json",
+        "is_collection": true,
+        "host": ["http://10.43.101.58:7071"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/api/Product/products/company/{id}/{productId}",
+      "output_encoding": "json-collection",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/api/Product/products/company/{id}/{productId}",
+        "encoding": "json",
+        "is_collection": true,
+        "host": ["http://10.43.101.58:7071"],
+        "disable_tls_verify": true
+      },
+      "method": "DELET"
+    },
+    {
+      "endpoint": "/api/Product/products/company/{id}/{productId}",
+      "output_encoding": "json-collection",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/api/Product/products/company/{id}/{productId}",
+        "encoding": "json",
+        "is_collection": true,
+        "host": ["http://10.43.101.58:7071"],
+        "disable_tls_verify": true
+      },
+      "method": "PUT"
+    },
+    {
+      "endpoint": "/api/Product/product/company/{id}/{productId}",
+      "output_encoding": "json-collection",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/api/Product/product/company/{id}/{productId}",
+        "encoding": "json",
+        "is_collection": true,
+        "host": ["http://10.43.101.58:7071"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/api/Product/products/names/company/{id}",
+      "output_encoding": "json-collection",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/api/Product/products/names/company/{id}",
+        "encoding": "json",
+        "is_collection": true,
+        "host": ["http://10.43.101.58:7071"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/api/Product/orders/supplier/company/{id}/{supplierId}",
+      "output_encoding": "json-collection",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/api/Product/orders/supplier/company/{id}/{supplierId}",
+        "encoding": "json",
+        "is_collection": true,
+        "host": ["http://10.43.101.58:7071"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/api/Product/order/company/{id}",
+      "output_encoding": "json-collection",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/api/Product/order/company/{id}",
+        "encoding": "json",
+        "is_collection": true,
+        "host": ["http://10.43.101.58:7071"],
+        "disable_tls_verify": true
+      },
+      "method": "POST"
+    },
+    {
+      "endpoint": "/api/Supplier/company/{id}",
+      "output_encoding": "json-collection",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/api/Supplier/company/{id}",
+        "encoding": "json",
+        "is_collection": true,
+        "host": ["http://10.43.101.58:7071"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/api/Supplier/company/{id}",
+      "output_encoding": "json-collection",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/api/Supplier/company/{id}",
+        "encoding": "json",
+        "is_collection": true,
+        "host": ["http://10.43.101.58:7071"],
+        "disable_tls_verify": true
+      },
+      "method": "PUT"
+    },
+    {
+      "endpoint": "/api/Supplier/company/{id}",
+      "output_encoding": "json-collection",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/api/Supplier/company/{id}",
+        "encoding": "json",
+        "is_collection": true,
+        "host": ["http://10.43.101.58:7071"],
+        "disable_tls_verify": true
+      },
+      "method": "POST"
+    },
+    {
+      "endpoint": "/api/Supplier/company/{id}/{supplierID}",
+      "output_encoding": "json-collection",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/api/Supplier/company/{id}/{supplierID}",
+        "encoding": "json",
+        "is_collection": true,
+        "host": ["http://10.43.101.58:7071"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/api/Supplier/supplierId/company/{id}",
+      "output_encoding": "json-collection",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/api/Supplier/supplierId/company/{id}",
+        "encoding": "json",
+        "is_collection": true,
+        "host": ["http://10.43.101.58:7071"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/api/Supplier/supplier/company/{id}/{supplierId}",
+      "output_encoding": "json-collection",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/api/Supplier/supplier/company/{id}/{supplierId}",
+        "encoding": "json",
+        "is_collection": true,
+        "host": ["http://10.43.101.58:7071"],
+        "disable_tls_verify": true
+      },
+      "method": "DELETE"
     }
   ],
   "output_encoding": "json"
