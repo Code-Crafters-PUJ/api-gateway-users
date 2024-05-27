@@ -314,18 +314,6 @@
       "method": "GET"
     },
     {
-      "endpoint": "/Commertial/user/services/{id}",
-      "output_encoding": "json",
-      "input_headers": ["*"],
-      "backend": {
-        "url_pattern": "/Commertial/user/services/{id}",
-        "encoding": "json",
-        "host": ["http://10.43.101.58:8000"],
-        "disable_tls_verify": true
-      },
-      "method": "GET"
-    },
-    {
       "endpoint": "/Commertial/user/PQRS/{id}",
       "output_encoding": "json",
       "input_headers": ["*"],
@@ -336,18 +324,6 @@
         "disable_tls_verify": true
       },
       "method": "GET"
-    },
-    {
-      "endpoint": "/Commertial/user/aboutUs",
-      "output_encoding": "json",
-      "input_headers": ["*"],
-      "backend": {
-        "url_pattern": "/Commertial/user/aboutUs",
-        "encoding": "json",
-        "host": ["http://10.43.101.58:8000"],
-        "disable_tls_verify": true
-      },
-      "method": "POST"
     },
     {
       "endpoint": "/Commertial/user/aboutUs",
