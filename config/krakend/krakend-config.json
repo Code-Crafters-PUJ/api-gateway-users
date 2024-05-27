@@ -371,7 +371,7 @@
         "url_pattern": "/compras/getall",
         "encoding": "json",
         "is_collection": true,
-        "host": ["http://10.43.101.58:5050"],
+        "host": ["http://10.43.101.58:8087"],
         "disable_tls_verify": true
       },
       "method": "GET"
@@ -384,7 +384,7 @@
         "url_pattern": "/ventas/getall",
         "encoding": "json",
         "is_collection": true,
-        "host": ["http://10.43.101.58:5050"],
+        "host": ["http://10.43.101.58:8087"],
         "disable_tls_verify": true
       },
       "method": "GET"
@@ -397,7 +397,7 @@
         "url_pattern": "/gastos/getall",
         "encoding": "json",
         "is_collection": true,
-        "host": ["http://10.43.101.58:5050"],
+        "host": ["http://10.43.101.58:8087"],
         "disable_tls_verify": true
       },
       "method": "GET"
@@ -410,7 +410,7 @@
         "url_pattern": "/cuentasporcobrar/getall",
         "encoding": "json",
         "is_collection": true,
-        "host": ["http://10.43.101.58:5050"],
+        "host": ["http://10.43.101.58:8087"],
         "disable_tls_verify": true
       },
       "method": "GET"
@@ -423,7 +423,7 @@
         "url_pattern": "/cuentasporpagar/getall",
         "encoding": "json",
         "is_collection": true,
-        "host": ["http://10.43.101.58:5050"],
+        "host": ["http://10.43.101.58:8087"],
         "disable_tls_verify": true
       },
       "method": "GET"
@@ -436,7 +436,7 @@
         "url_pattern": "/activos/getall",
         "encoding": "json",
         "is_collection": true,
-        "host": ["http://10.43.101.58:5050"],
+        "host": ["http://10.43.101.58:8087"],
         "disable_tls_verify": true
       },
       "method": "GET"
@@ -449,7 +449,7 @@
         "url_pattern": "/pasivos/getall",
         "encoding": "json",
         "is_collection": true,
-        "host": ["http://10.43.101.58:5050"],
+        "host": ["http://10.43.101.58:8087"],
         "disable_tls_verify": true
       },
       "method": "GET"
@@ -462,7 +462,7 @@
         "url_pattern": "/capitalcontable/getall",
         "encoding": "json",
         "is_collection": true,
-        "host": ["http://10.43.101.58:5050"],
+        "host": ["http://10.43.101.58:8087"],
         "disable_tls_verify": true
       },
       "method": "GET"
@@ -475,7 +475,7 @@
         "url_pattern": "/transaccionesbancarias/getall",
         "encoding": "json",
         "is_collection": true,
-        "host": ["http://10.43.101.58:5050"],
+        "host": ["http://10.43.101.58:8087"],
         "disable_tls_verify": true
       },
       "method": "GET"
@@ -488,7 +488,7 @@
         "url_pattern": "/impuestos/getall",
         "encoding": "json",
         "is_collection": true,
-        "host": ["http://10.43.101.58:5050"],
+        "host": ["http://10.43.101.58:8087"],
         "disable_tls_verify": true
       },
       "method": "GET"
@@ -501,7 +501,7 @@
         "url_pattern": "/asientoscontables/getall",
         "encoding": "json",
         "is_collection": true,
-        "host": ["http://10.43.101.58:5050"],
+        "host": ["http://10.43.101.58:8087"],
         "disable_tls_verify": true
       },
       "method": "GET"
@@ -514,7 +514,7 @@
         "url_pattern": "/estadosfinancieros/getall",
         "encoding": "json",
         "is_collection": true,
-        "host": ["http://10.43.101.58:5050"],
+        "host": ["http://10.43.101.58:8087"],
         "disable_tls_verify": true
       },
       "method": "GET"
