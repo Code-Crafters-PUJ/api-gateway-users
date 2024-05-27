@@ -954,7 +954,7 @@
         "host": ["http://10.43.101.58:7071"],
         "disable_tls_verify": true
       },
-      "method": "DELET"
+      "method": "DELETE"
     },
     {
       "endpoint": "/api/Product/products/company/{id}/{productId}",
@@ -1098,6 +1098,292 @@
         "disable_tls_verify": true
       },
       "method": "DELETE"
+    },
+    {
+      "endpoint": "/clients/add",
+      "output_encoding": "json-collection",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/clients/add",
+        "encoding": "json",
+        "is_collection": true,
+        "host": ["http://10.43.101.58:8080"],
+        "disable_tls_verify": true
+      },
+      "method": "POST"
+    },
+    {
+      "endpoint": "/clients/update/{id}",
+      "output_encoding": "json-collection",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/clients/update/{id}",
+        "encoding": "json",
+        "is_collection": true,
+        "host": ["http://10.43.101.58:7071"],
+        "disable_tls_verify": true
+      },
+      "method": "PUT"
+    },
+    {
+      "endpoint": "/clients/getByCardId/{id}",
+      "output_encoding": "json-collection",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/clients/getByCardId/{id}",
+        "encoding": "json",
+        "is_collection": true,
+        "host": ["http://10.43.101.58:7071"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/clients/getById/{id}",
+      "output_encoding": "json-collection",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/clients/getById/{id}",
+        "encoding": "json",
+        "is_collection": true,
+        "host": ["http://10.43.101.58:7071"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/clients/all",
+      "output_encoding": "json-collection",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/clients/all",
+        "encoding": "json",
+        "is_collection": true,
+        "host": ["http://10.43.101.58:7071"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/clients/delete/{id}",
+      "output_encoding": "json-collection",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/clients/delete/{id}",
+        "encoding": "json",
+        "is_collection": true,
+        "host": ["http://10.43.101.58:7071"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/paymentMethod/add",
+      "output_encoding": "json-collection",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/paymentMethod/add",
+        "encoding": "json",
+        "is_collection": true,
+        "host": ["http://10.43.101.58:7071"],
+        "disable_tls_verify": true
+      },
+      "method": "POST"
+    },
+    {
+      "endpoint": "/paymentMethod/update/{id}",
+      "output_encoding": "json-collection",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/paymentMethod/update/{id}",
+        "encoding": "json",
+        "is_collection": true,
+        "host": ["http://10.43.101.58:7071"],
+        "disable_tls_verify": true
+      },
+      "method": "PUT"
+    },
+    {
+      "endpoint": "/paymentMethod/getById/{id}",
+      "output_encoding": "json-collection",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/paymentMethod/getById/{id}",
+        "encoding": "json",
+        "is_collection": true,
+        "host": ["http://10.43.101.58:7071"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/paymentMethod/all",
+      "output_encoding": "json-collection",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/paymentMethod/all",
+        "encoding": "json",
+        "is_collection": true,
+        "host": ["http://10.43.101.58:7071"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/paymentMethod/delete/{id}",
+      "output_encoding": "json-collection",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/paymentMethod/delete/{id}",
+        "encoding": "json",
+        "is_collection": true,
+        "host": ["http://10.43.101.58:7071"],
+        "disable_tls_verify": true
+      },
+      "method": "DELETE"
+    },
+    {
+      "endpoint": "/bill/update/{id}",
+      "output_encoding": "json-collection",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/bill/update/{id}",
+        "encoding": "json",
+        "is_collection": true,
+        "host": ["http://10.43.101.58:7071"],
+        "disable_tls_verify": true
+      },
+      "method": "PUT"
+    },
+    {
+      "endpoint": "/bill/add",
+      "output_encoding": "json-collection",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/bill/add",
+        "encoding": "json",
+        "is_collection": true,
+        "host": ["http://10.43.101.58:7071"],
+        "disable_tls_verify": true
+      },
+      "method": "POST"
+    },
+    {
+      "endpoint": "/bill/getById/{id}",
+      "output_encoding": "json-collection",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/bill/getById/{id}",
+        "encoding": "json",
+        "is_collection": true,
+        "host": ["http://10.43.101.58:7071"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/bill/all",
+      "output_encoding": "json-collection",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/bill/all",
+        "encoding": "json",
+        "is_collection": true,
+        "host": ["http://10.43.101.58:7071"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/bill/allByBranch/{id}",
+      "output_encoding": "json-collection",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/bill/allByBranch/{id}",
+        "encoding": "json",
+        "is_collection": true,
+        "host": ["http://10.43.101.58:7071"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/bill/delete/{id}",
+      "output_encoding": "json-collection",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/bill/delete/{id}",
+        "encoding": "json",
+        "is_collection": true,
+        "host": ["http://10.43.101.58:7071"],
+        "disable_tls_verify": true
+      },
+      "method": "DELETE"
+    },
+    {
+      "endpoint": "/email/send/{id}",
+      "output_encoding": "json-collection",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/email/send/{id}",
+        "encoding": "json",
+        "is_collection": true,
+        "host": ["http://10.43.101.58:7071"],
+        "disable_tls_verify": true
+      },
+      "method": "POST"
+    },
+    {
+      "endpoint": "/billproduct/addToBill/{id}",
+      "output_encoding": "json-collection",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/billproduct/addToBill/{id}",
+        "encoding": "json",
+        "is_collection": true,
+        "host": ["http://10.43.101.58:7071"],
+        "disable_tls_verify": true
+      },
+      "method": "POST"
+    },
+    {
+      "endpoint": "/billproduct/all",
+      "output_encoding": "json-collection",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/billproduct/all",
+        "encoding": "json",
+        "is_collection": true,
+        "host": ["http://10.43.101.58:7071"],
+        "disable_tls_verify": true
+      },
+      "method": "POST"
+    },
+    {
+      "endpoint": "/billproduct/getAllProductsByBill/{id}",
+      "output_encoding": "json-collection",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/billproduct/getAllProductsByBill/{id}",
+        "encoding": "json",
+        "is_collection": true,
+        "host": ["http://10.43.101.58:7071"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
+    },
+    {
+      "endpoint": "/bill/getPDF/{id}",
+      "output_encoding": "json-collection",
+      "input_headers": ["*"],
+      "backend": {
+        "url_pattern": "/bill/getPDF/{id}",
+        "encoding": "json",
+        "is_collection": true,
+        "host": ["http://10.43.101.58:7071"],
+        "disable_tls_verify": true
+      },
+      "method": "GET"
     }
   ],
   "output_encoding": "json"
